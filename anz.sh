@@ -1,6 +1,6 @@
 #MENU
 cp /usr/bin/menu /root/backup/menu/menu.sh
-cp /usr/bin/menu-xtls /root/backup/menu/-xtls.sh
+cp /usr/bin/menu-xtls /root/backup/menu/menu-xtls.sh
 cp /usr/bin/menu-wg /root/backup/menu/menu-wg.sh
 cp /usr/bin/menu-vmess /root/backup/menu/menu-vmess.sh
 cp /usr/bin/menu-vless /root/backup/menu/menu-vless.sh
