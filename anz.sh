@@ -83,39 +83,19 @@ cp /usr/bin/del-tr /root/backup/del-tr.sh
 cp /usr/bin/del-ssr /root/backup/del-ssr.sh
 cp /usr/bin/del-ss /root/backup/del-ss.sh
 
-cp /usr/bin/menu /root/backup/menu.sh
-cp /usr/bin/menu /root/backup/menu.sh
-cp /usr/bin/menu /root/backup/menu.sh
-cp /usr/bin/menu /root/backup/menu.sh
-cp /usr/bin/menu /root/backup/menu.sh
-cp /usr/bin/menu /root/backup/menu.sh
-cp /usr/bin/menu /root/backup/menu.sh
-cp /usr/bin/menu /root/backup/menu.sh
-cp /usr/bin/menu /root/backup/menu.sh
-cp /usr/bin/menu /root/backup/menu.sh
-cp /usr/bin/menu /root/backup/menu.sh
+#PORT
+cp /usr/bin/port-xws /root/backup/port-xws.sh
+cp /usr/bin/port-xvless /root/backup/port-xvless.sh
+cp /usr/bin/port-xtls /root/backup/port-xtls.sh
+cp /usr/bin/port-wg /root/backup/port-wg.sh
+cp /usr/bin/port-trxtls /root/backup/port-trxtls.sh
+cp /usr/bin/port-trgrpc /root/backup/port-trgrpc.sh
+cp /usr/bin/port-tr /root/backup/port-tr.sh
+cp /usr/bin/port-ssl /root/backup/port-ssl.sh
+cp /usr/bin/port-squid /root/backup/port-squid.sh
+cp /usr/bin/port-ovpn /root/backup/port-ovpn.sh
+cp /usr/bin/port-change /root/backup/port-change.sh
 
-cp /usr/bin/menu /root/backup/menu.sh
-cp /usr/bin/menu /root/backup/menu.sh
-cp /usr/bin/menu /root/backup/menu.sh
-cp /usr/bin/menu /root/backup/menu.sh
-cp /usr/bin/menu /root/backup/menu.sh
-cp /usr/bin/menu /root/backup/menu.sh
-cp /usr/bin/menu /root/backup/menu.sh
-cp /usr/bin/menu /root/backup/menu.sh
-cp /usr/bin/menu /root/backup/menu.sh
-cp /usr/bin/menu /root/backup/menu.sh
-cp /usr/bin/menu /root/backup/menu.sh
 
-cp /usr/bin/menu /root/backup/menu.sh
-cp /usr/bin/menu /root/backup/menu.sh
-cp /usr/bin/menu /root/backup/menu.sh
-cp /usr/bin/menu /root/backup/menu.sh
-cp /usr/bin/menu /root/backup/menu.sh
-cp /usr/bin/menu /root/backup/menu.sh
-cp /usr/bin/menu /root/backup/menu.sh
-cp /usr/bin/menu /root/backup/menu.sh
-cp /usr/bin/menu /root/backup/menu.sh
-cp /usr/bin/menu /root/backup/menu.sh
-cp /usr/bin/menu /root/backup/menu.sh
+
 
