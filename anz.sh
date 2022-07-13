@@ -96,6 +96,45 @@ cp /usr/bin/port-squid /root/backup/port-squid.sh
 cp /usr/bin/port-ovpn /root/backup/port-ovpn.sh
 cp /usr/bin/port-change /root/backup/port-change.sh
 
+# ADDON 
+cp /usr/bin/about /root/backup/about.sh
+cp /usr/bin/auto-reboot /root/backup/auto-reboot.sh
+
+cp /usr/bin/autobackup. /root/backup/autobackup..sh
+cp /usr/bin/autokill /root/backup/autokill.sh
+cp /usr/bin/backup /root/backup/backup.sh
+cp /usr/bin/bbr /root/backup/bbr.sh
+cp /usr/bin/bckp /root/backup/bckp.sh
+cp /usr/bin/bw /root/backup/bw.sh
+cp /usr/bin/clear-log /root/backup/clear-log.sh
+cp /usr/bin/cfd /root/backup/cfd.sh
+cp /usr/bin/cff /root/backup/cff.sh
+cp /usr/bin/cfh /root/backup/cfh.sh
+
+cp /usr/bin/dns-setup /root/backup/dns-setup.sh
+cp /usr/bin/hapus /root/backup/hapus.sh
+cp /usr/bin/info /root/backup/info.sh
+cp /usr/bin/kernel-update /root/backup/kernel-update.sh
+cp /usr/bin/nf /root/backup/nf.sh
+cp /usr/bin/patchssl /root/backup/patchssl.sh
+
+cp /usr/bin/ram /root/backup/ram.sh
+cp /usr/bin/resett /root/backup/resett.sh
+
+cp /usr/bin/restore /root/backup/restore.sh
+cp /usr/bin/ssr /root/backup/ssr.sh
+cp /usr/bin/ssrmu /root/backup/ssrmu.sh
+cp /usr/bin/strt /root/backup/strt.sh
+cp /usr/bin/swapkvm /root/backup/swapkvm.sh
+
+cp /usr/bin/tcp /root/backup/tcp.sh
+cp /usr/bin/tendang /root/backup/tendang.sh
+
+cp /usr/bin/update /root/backup/update.sh
+
+cp /usr/bin/webmin /root/backup/webmin.sh
+
+cp /usr/bin/wg /root/backup/wg.sh
 
 
 
