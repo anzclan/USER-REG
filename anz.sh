@@ -57,6 +57,31 @@ cp /usr/bin/renew-ssr /root/backup/renew-ssr.sh
 cp /usr/bin/renew-ss /root/backup/renew-ss.sh
 cp /usr/bin/renew /root/backup/renew.sh
 
+cp /usr/bin/certv2ray /root/backup/certv2ray.sh
+
+#CEK 
+cp /usr/bin/ceklim /root/backup/ceklim.sh
+cp /usr/bin/cek-xws /root/backup/cek-xws.sh
+cp /usr/bin/cek-xvless /root/backup/cek-xvless.sh
+cp /usr/bin/cek-xtls /root/backup/cek-xtls.sh
+cp /usr/bin/cek-wg /root/backup/cek-wg.sh
+cp /usr/bin/cek-trxtls /root/backup/cek-trxtls.sh
+cp /usr/bin/cek-trgrpc /root/backup/cek-trgrpc.sh
+cp /usr/bin/cek-tr /root/backup/cek-tr.sh
+cp /usr/bin/cek-ss /root/backup/cek-ss.sh
+cp /usr/bin/cek /root/backup/cek.sh
+
+#DEL
+cp /usr/bin/delete /root/backup/delete.sh
+cp /usr/bin/del-xws /root/backup/del-xws.sh
+cp /usr/bin/del-xvless /root/backup/del-xvless.sh
+cp /usr/bin/del-xtls /root/backup/del-xtls.sh
+cp /usr/bin/del-wg /root/backup/del-wg.sh
+cp /usr/bin/del-trxtls /root/backup/del-trxtls.sh
+cp /usr/bin/del-trgrpc /root/backup/del-trgrpc.sh
+cp /usr/bin/del-tr /root/backup/del-tr.sh
+cp /usr/bin/del-ssr /root/backup/del-ssr.sh
+cp /usr/bin/del-ss /root/backup/del-ss.sh
 
 cp /usr/bin/menu /root/backup/menu.sh
 cp /usr/bin/menu /root/backup/menu.sh
@@ -68,3 +93,29 @@ cp /usr/bin/menu /root/backup/menu.sh
 cp /usr/bin/menu /root/backup/menu.sh
 cp /usr/bin/menu /root/backup/menu.sh
 cp /usr/bin/menu /root/backup/menu.sh
+cp /usr/bin/menu /root/backup/menu.sh
+
+cp /usr/bin/menu /root/backup/menu.sh
+cp /usr/bin/menu /root/backup/menu.sh
+cp /usr/bin/menu /root/backup/menu.sh
+cp /usr/bin/menu /root/backup/menu.sh
+cp /usr/bin/menu /root/backup/menu.sh
+cp /usr/bin/menu /root/backup/menu.sh
+cp /usr/bin/menu /root/backup/menu.sh
+cp /usr/bin/menu /root/backup/menu.sh
+cp /usr/bin/menu /root/backup/menu.sh
+cp /usr/bin/menu /root/backup/menu.sh
+cp /usr/bin/menu /root/backup/menu.sh
+
+cp /usr/bin/menu /root/backup/menu.sh
+cp /usr/bin/menu /root/backup/menu.sh
+cp /usr/bin/menu /root/backup/menu.sh
+cp /usr/bin/menu /root/backup/menu.sh
+cp /usr/bin/menu /root/backup/menu.sh
+cp /usr/bin/menu /root/backup/menu.sh
+cp /usr/bin/menu /root/backup/menu.sh
+cp /usr/bin/menu /root/backup/menu.sh
+cp /usr/bin/menu /root/backup/menu.sh
+cp /usr/bin/menu /root/backup/menu.sh
+cp /usr/bin/menu /root/backup/menu.sh
+
