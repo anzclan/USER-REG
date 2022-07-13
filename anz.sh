@@ -100,7 +100,7 @@ cp /usr/bin/port-change /root/backup/port-change.sh
 cp /usr/bin/about /root/backup/about.sh
 cp /usr/bin/auto-reboot /root/backup/auto-reboot.sh
 
-cp /usr/bin/autobackup. /root/backup/autobackup..sh
+cp /usr/bin/autobackup /root/backup/autobackup.sh
 cp /usr/bin/autokill /root/backup/autokill.sh
 cp /usr/bin/backup /root/backup/backup.sh
 cp /usr/bin/bbr /root/backup/bbr.sh
