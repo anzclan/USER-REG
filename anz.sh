@@ -1,7 +1,5 @@
-#!/bin/bash
-
-mk -f /root/backup
-mk -f /root/backup/menu
+mkdir /root/backup
+mkdir /root/backup/menu
 
 #MENU
 cp /usr/bin/menu /root/backup/menu/menu.sh
