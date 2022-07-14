@@ -1,3 +1,8 @@
+#!/bin/bash
+
+mk -f /root/backup
+mk -f /root/backup/menu
+
 #MENU
 cp /usr/bin/menu /root/backup/menu/menu.sh
 cp /usr/bin/menu-xtls /root/backup/menu/menu-xtls.sh
