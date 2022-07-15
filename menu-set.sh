@@ -3,7 +3,7 @@ clear
 MYIP=$(curl -s https://icanhazip.com)
 
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e "\E[40;1;37m|               • BACKUP PANEL •                 |\E[0m"
+echo -e "\E[40;1;37m|              • SETTINGS PANEL •                |\E[0m"
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "
  [\033[1;36m01\033[0m] • MENU
