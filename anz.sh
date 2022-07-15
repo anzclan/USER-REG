@@ -13,6 +13,7 @@ cp /usr/bin/menu-ssrmu /root/backup/menu/menu-ssrmu.sh
 cp /usr/bin/menu-ssr /root/backup/menu/menu-ssr.sh
 cp /usr/bin/menu-ssh /root/backup/menu/menu-ssh.sh
 cp /usr/bin/menu-bkp /root/backup/menu/menu-bkp.sh
+cp /usr/bin/menu-set /root/backup/menu/menu-set.sh
 
 # DOMAIN PANEL
 mkdir /root/backup/domain-panel
