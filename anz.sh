@@ -118,7 +118,7 @@ cp /usr/bin/auto-reboot /root/backup/settings/auto-reboot.sh
 cp /usr/bin/bbr /root/backup/settings/bbr.sh
 cp /usr/bin/bw /root/backup/settings/bw.sh
 cp /usr/bin/clear-log /root/backup/settings/clear-log.sh
-cp /usr/bin/dns-setup /root/backup/settings/dns-setup.sh
+cp /usr/bin/dns /root/backup/settings/dns-setup.sh
 cp /usr/bin/hapus /root/backup/settings/hapus.sh
 cp /usr/bin/info /root/backup/settings/info.sh
 cp /usr/bin/kernel-update /root/backup/settings/kernel-update.sh
