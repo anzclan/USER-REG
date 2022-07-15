@@ -6,9 +6,9 @@ echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━�
 echo -e "\E[40;1;37m|              • SETTINGS PANEL •                |\E[0m"
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "
- [\033[1;36m01\033[0m] • MENU
- [\033[1;36m02\033[0m] • MENU
- [\033[1;36m03\033[0m] • MENU
+ [\033[1;36m01\033[0m] • Domain Panel 
+ [\033[1;36m02\033[0m] • Backup Panel 
+ [\033[1;36m03\033[0m] • Port Panel 
  [\033[1;36m04\033[0m] • MENU
  [\033[1;36m05\033[0m] • MENU
 
@@ -22,15 +22,15 @@ echo -e ""
 case $opt in
 01 | 1)
   clear
-  MENU
+  domain-menu
   ;;
 02 | 2)
   clear
-  MENU
+  menu-bkp
   ;;
 03 | 3)
   clear
-  MENU
+  port-change
   ;;
 04 | 4)
   clear
@@ -46,6 +46,6 @@ case $opt in
   ;;
 *)
   clear
-  menu-bkp
+  menu-set
   ;;
 esac
