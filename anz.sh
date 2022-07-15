@@ -1,7 +1,7 @@
 mkdir /root/backup
-mkdir /root/backup/menu
 
 #MENU
+mkdir /root/backup/menu
 cp /usr/bin/menu /root/backup/menu/menu.sh
 cp /usr/bin/menu-xtls /root/backup/menu/menu-xtls.sh
 cp /usr/bin/menu-wg /root/backup/menu/menu-wg.sh
@@ -12,132 +12,124 @@ cp /usr/bin/menu-sys /root/backup/menu/menu-sys.sh
 cp /usr/bin/menu-ssrmu /root/backup/menu/menu-ssrmu.sh
 cp /usr/bin/menu-ssr /root/backup/menu/menu-ssr.sh
 cp /usr/bin/menu-ssh /root/backup/menu/menu-ssh.sh
+cp /usr/bin/menu-bkp /root/backup/menu/menu-bkp.sh
 
-#MEMBER
-cp /usr/bin/member /root/backup/member.sh
-cp /usr/bin/usernew /root/backup/usernew.sh
-cp /usr/bin/user-xvless /root/backup/user-xvless.sh
-cp /usr/bin/user-xws /root/backup/user-xws.sh
-cp /usr/bin/user-xtls /root/backup/user-xtls.sh
-cp /usr/bin/user-trxtls /root/backup/user-trxtls.sh
-cp /usr/bin/user-trgrpc /root/backup/user-trgrpc.sh
-cp /usr/bin/user-trgfw /root/backup/user-trgfw.sh
-cp /usr/bin/user-limit /root/backup/user-limit.sh
+# DOMAIN PANEL
+mkdir /root/backup/domain-panel
+cp /usr/bin/domain-menu /root/backup/domain-panel/domain-menu.sh
+cp /usr/bin/add-host /root/backup/domain-panel/add-host.sh
+cp /usr/bin/cff /root/backup/domain-panel/cff.sh
+cp /usr/bin/cfd /root/backup/domain-panel/cfd.sh
+cp /usr/bin/cfh /root/backup/domain-panel/cfh.sh
+cp /usr/bin/certv2ray /root/backup/domain-panel/certv2ray.sh
+cp /usr/bin/patchssl /root/backup/domain-panel/patchssl.sh
 
-#ADD
-cp /usr/bin/add-xws /root/backup/add-xws.sh
-cp /usr/bin/add-xvless /root/backup/add-xvless.sh
-cp /usr/bin/add-xtls /root/backup/add-xtls.sh
-cp /usr/bin/add-wg /root/backup/add-wg.sh
-cp /usr/bin/add-trxtls /root/backup/add-trxtls.sh
-cp /usr/bin/add-tr /root/backup/add-tr.sh
-cp /usr/bin/add-ssr /root/backup/add-ssr.sh
-cp /usr/bin/add-trgrpc /root/backup/add-trgrpc.sh
-cp /usr/bin/add-ss /root/backup/add-ss.sh
-cp /usr/bin/add-host /root/backup/add-host.sh
+##XRAY
+mkdir /root/backup/xray
+cp /usr/bin/user-xvless /root/backup/xray/user-xvless.sh
+cp /usr/bin/user-xws /root/backup/xray/user-xws.sh
+cp /usr/bin/user-xtls /root/backup/xray/user-xtls.sh
+cp /usr/bin/user-trxtls /root/backup/xray/user-trxtls.sh
+cp /usr/bin/user-trgrpc /root/backup/xray/user-trgrpc.sh
+cp /usr/bin/user-trgfw /root/backup/xray/user-trgfw.sh
+cp /usr/bin/add-xws /root/backup/xray/add-xws.sh
+cp /usr/bin/add-xvless /root/backup/xray/add-xvless.sh
+cp /usr/bin/add-xtls /root/backup/xray/add-xtls.sh
+cp /usr/bin/add-trxtls /root/backup/xray/add-trxtls.sh
+cp /usr/bin/add-tr /root/backup/xray/add-tr.sh
+cp /usr/bin/add-trgrpc /root/backup/xray/add-trgrpc.sh
+cp /usr/bin/trial-xws /root/backup/xray/trialxws-.sh
+cp /usr/bin/trial-xtls /root/backup/xray/trial-xtls.sh
+cp /usr/bin/trial-trxtls /root/backup/xray/trial-trxtls.sh
+cp /usr/bin/trial-trgrpc /root/backup/xray/trial-trgrpc.sh
+cp /usr/bin/trial-tr /root/backup/xray/trial-tr.sh
+cp /usr/bin/renew-xws /root/backup/xray/renew-xws.sh
+cp /usr/bin/renew-xvless /root/backup/xray/renew-xvless.sh
+cp /usr/bin/renew-xtls /root/backup/xray/renew-xtls.sh
+cp /usr/bin/renew-trxtls /root/backup/xray/renew-trxtls.sh
+cp /usr/bin/renew-trgrpc /root/backup/xray/renew-trgrpc.sh
+cp /usr/bin/renew-tr /root/backup/xray/renew-tr.sh
+cp /usr/bin/cek-xws /root/backup/xray/cek-xws.sh
+cp /usr/bin/cek-xvless /root/backup/xray/cek-xvless.sh
+cp /usr/bin/cek-xtls /root/backup/xray/cek-xtls.sh
+cp /usr/bin/cek-trxtls /root/backup/xray/cek-trxtls.sh
+cp /usr/bin/cek-trgrpc /root/backup/xray/cek-trgrpc.sh
+cp /usr/bin/cek-tr /root/backup/xray/cek-tr.sh
+cp /usr/bin/del-xws /root/backup/xray/del-xws.sh
+cp /usr/bin/del-xvless /root/backup/xray/del-xvless.sh
+cp /usr/bin/del-xtls /root/backup/xray/del-xtls.sh
+cp /usr/bin/del-trxtls /root/backup/xray/del-trxtls.sh
+cp /usr/bin/del-trgrpc /root/backup/xray/del-trgrpc.sh
+cp /usr/bin/del-tr /root/backup/xray/del-tr.sh
 
-#UPDATE
-cp /usr/bin/update /root/backup/update.sh
+#SSH
+mkdir /root/backup/ssh
+cp /usr/bin/member /root/backup/ssh/member.sh
+cp /usr/bin/usernew /root/backup/ssh/usernew.sh
+cp /usr/bin/trial /root/backup/ssh/trial.sh
+cp /usr/bin/renew /root/backup/ssh/renew.sh
+cp /usr/bin/ceklim /root/backup/ssh/ceklim.sh
+cp /usr/bin/cek /root/backup/ssh/cek.sh
+cp /usr/bin/delete /root/backup/ssh/delete.sh
+cp /usr/bin/autokill /root/backup/ssh/autokill.sh
 
-#TRIAL
-cp /usr/bin/trial-xws /root/backup/trialxws-.sh
-cp /usr/bin/trial-xtls /root/backup/trial-xtls.sh
-cp /usr/bin/trial-wg /root/backup/trial-wg.sh
-cp /usr/bin/trial-trxtls /root/backup/trial-trxtls.sh
-cp /usr/bin/trial-trgrpc /root/backup/trial-trgrpc.sh
-cp /usr/bin/trial-tr /root/backup/trial-tr.sh
-cp /usr/bin/trial /root/backup/trial.sh
+#SSR
+mkdir /root/backup/ssr
+cp /usr/bin/add-ssr /root/backup/ssr/add-ssr.sh
+cp /usr/bin/add-ss /root/backup/ssr/add-ss.sh
+cp /usr/bin/renew-ssr /root/backup/ssr/renew-ssr.sh
+cp /usr/bin/renew-ss /root/backup/ssr/renew-ss.sh
+cp /usr/bin/cek-ss /root/backup/ssr/cek-ss.sh
+cp /usr/bin/del-ssr /root/backup/ssr/del-ssr.sh
+cp /usr/bin/del-ss /root/backup/ssr/del-ss.sh
+cp /usr/bin/ssr /root/backup/ssr/ssr.sh
+cp /usr/bin/ssrmu /root/backup/ssr/ssrmu.sh
 
-#RENEW
-cp /usr/bin/renew-xws /root/backup/renew-xws.sh
-cp /usr/bin/renew-xvless /root/backup/renew-xvless.sh
-cp /usr/bin/renew-xtls /root/backup/renew-xtls.sh
-cp /usr/bin/renew-wg /root/backup/renew-wg.sh
-cp /usr/bin/renew-trxtls /root/backup/renew-trxtls.sh
-cp /usr/bin/renew-trgrpc /root/backup/renew-trgrpc.sh
-cp /usr/bin/renew-tr /root/backup/renew-tr.sh
-cp /usr/bin/renew-ssr /root/backup/renew-ssr.sh
-cp /usr/bin/renew-ss /root/backup/renew-ss.sh
-cp /usr/bin/renew /root/backup/renew.sh
+#WG
+mkdir /root/backup/wiregurad
+cp /usr/bin/add-wg /root/backup/wiregurad/add-wg.sh
+cp /usr/bin/trial-wg /root/backup/wiregurad/trial-wg.sh
+cp /usr/bin/renew-wg /root/backup/wiregurad/renew-wg.sh
+cp /usr/bin/cek-wg /root/backup/wiregurad/cek-wg.sh
+cp /usr/bin/del-wg /root/backup/wiregurad/del-wg.sh
+cp /usr/bin/wg /root/backup/wiregurad/wg.sh
 
-cp /usr/bin/certv2ray /root/backup/certv2ray.sh
-
-#CEK 
-cp /usr/bin/ceklim /root/backup/ceklim.sh
-cp /usr/bin/cek-xws /root/backup/cek-xws.sh
-cp /usr/bin/cek-xvless /root/backup/cek-xvless.sh
-cp /usr/bin/cek-xtls /root/backup/cek-xtls.sh
-cp /usr/bin/cek-wg /root/backup/cek-wg.sh
-cp /usr/bin/cek-trxtls /root/backup/cek-trxtls.sh
-cp /usr/bin/cek-trgrpc /root/backup/cek-trgrpc.sh
-cp /usr/bin/cek-tr /root/backup/cek-tr.sh
-cp /usr/bin/cek-ss /root/backup/cek-ss.sh
-cp /usr/bin/cek /root/backup/cek.sh
-
-#DEL
-cp /usr/bin/delete /root/backup/delete.sh
-cp /usr/bin/del-xws /root/backup/del-xws.sh
-cp /usr/bin/del-xvless /root/backup/del-xvless.sh
-cp /usr/bin/del-xtls /root/backup/del-xtls.sh
-cp /usr/bin/del-wg /root/backup/del-wg.sh
-cp /usr/bin/del-trxtls /root/backup/del-trxtls.sh
-cp /usr/bin/del-trgrpc /root/backup/del-trgrpc.sh
-cp /usr/bin/del-tr /root/backup/del-tr.sh
-cp /usr/bin/del-ssr /root/backup/del-ssr.sh
-cp /usr/bin/del-ss /root/backup/del-ss.sh
 
 #PORT
-cp /usr/bin/port-xws /root/backup/port-xws.sh
-cp /usr/bin/port-xvless /root/backup/port-xvless.sh
-cp /usr/bin/port-xtls /root/backup/port-xtls.sh
-cp /usr/bin/port-wg /root/backup/port-wg.sh
-cp /usr/bin/port-trxtls /root/backup/port-trxtls.sh
-cp /usr/bin/port-trgrpc /root/backup/port-trgrpc.sh
-cp /usr/bin/port-tr /root/backup/port-tr.sh
-cp /usr/bin/port-ssl /root/backup/port-ssl.sh
-cp /usr/bin/port-squid /root/backup/port-squid.sh
-cp /usr/bin/port-ovpn /root/backup/port-ovpn.sh
-cp /usr/bin/port-change /root/backup/port-change.sh
+mkdir /root/backup/port-panel
+cp /usr/bin/port-xws /root/backup/port-panel/port-xws.sh
+cp /usr/bin/port-xvless /root/backup/port-panel/port-xvless.sh
+cp /usr/bin/port-xtls /root/backup/port-panel/port-xtls.sh
+cp /usr/bin/port-wg /root/backup/port-panel/port-wg.sh
+cp /usr/bin/port-trxtls /root/backup/port-panel/port-trxtls.sh
+cp /usr/bin/port-trgrpc /root/backup/port-panel/port-trgrpc.sh
+cp /usr/bin/port-tr /root/backup/port-panel/port-tr.sh
+cp /usr/bin/port-ssl /root/backup/port-panel/port-ssl.sh
+cp /usr/bin/port-squid /root/backup/port-panel/port-squid.sh
+cp /usr/bin/port-ovpn /root/backup/port-panel/port-ovpn.sh
+cp /usr/bin/port-change /root/backup/port-panel/port-change.sh
 
-# ADDON 
-cp /usr/bin/about /root/backup/about.sh
-cp /usr/bin/auto-reboot /root/backup/auto-reboot.sh
+#SETTINGS
+mkdir /root/backup/settings
+cp /usr/bin/user-limit /root/backup/settings/user-limit.sh
+cp /usr/bin/update /root/backup/settings/update.sh
+cp /usr/bin/about /root/backup/settings/about.sh
+cp /usr/bin/auto-reboot /root/backup/settings/auto-reboot.sh
+cp /usr/bin/bbr /root/backup/settings/bbr.sh
+cp /usr/bin/bw /root/backup/settings/bw.sh
+cp /usr/bin/clear-log /root/backup/settings/clear-log.sh
+cp /usr/bin/dns-setup /root/backup/settings/dns-setup.sh
+cp /usr/bin/hapus /root/backup/settings/hapus.sh
+cp /usr/bin/info /root/backup/settings/info.sh
+cp /usr/bin/kernel-update /root/backup/settings/kernel-update.sh
+cp /usr/bin/nf /root/backup/settings/nf.sh
+cp /usr/bin/ram /root/backup/settings/ram.sh
+cp /usr/bin/resett /root/backup/settings/resett.sh
+cp /usr/bin/swapkvm /root/backup/settings/swapkvm.sh
+cp /usr/bin/tcp /root/backup/settings/tcp.sh
+cp /usr/bin/tendang /root/backup/settings/tendang.sh
+cp /usr/bin/webmin /root/backup/settings/webmin.sh
 
-cp /usr/bin/autobackup /root/backup/autobackup.sh
-cp /usr/bin/autokill /root/backup/autokill.sh
-cp /usr/bin/backup /root/backup/backup.sh
-cp /usr/bin/bbr /root/backup/bbr.sh
-cp /usr/bin/bckp /root/backup/bckp.sh
-cp /usr/bin/bw /root/backup/bw.sh
-cp /usr/bin/clear-log /root/backup/clear-log.sh
-cp /usr/bin/cfd /root/backup/cfd.sh
-cp /usr/bin/cff /root/backup/cff.sh
-cp /usr/bin/cfh /root/backup/cfh.sh
-
-cp /usr/bin/dns-setup /root/backup/dns-setup.sh
-cp /usr/bin/hapus /root/backup/hapus.sh
-cp /usr/bin/info /root/backup/info.sh
-cp /usr/bin/kernel-update /root/backup/kernel-update.sh
-cp /usr/bin/nf /root/backup/nf.sh
-cp /usr/bin/patchssl /root/backup/patchssl.sh
-
-cp /usr/bin/ram /root/backup/ram.sh
-cp /usr/bin/resett /root/backup/resett.sh
-
-cp /usr/bin/restore /root/backup/restore.sh
-cp /usr/bin/ssr /root/backup/ssr.sh
-cp /usr/bin/ssrmu /root/backup/ssrmu.sh
-cp /usr/bin/strt /root/backup/strt.sh
-cp /usr/bin/swapkvm /root/backup/swapkvm.sh
-
-cp /usr/bin/tcp /root/backup/tcp.sh
-cp /usr/bin/tendang /root/backup/tendang.sh
-
-cp /usr/bin/update /root/backup/update.sh
-
-cp /usr/bin/webmin /root/backup/webmin.sh
-
-cp /usr/bin/wg /root/backup/wg.sh
 
 
 
