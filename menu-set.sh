@@ -3,12 +3,12 @@ clear
 MYIP=$(curl -s https://icanhazip.com)
 
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e "\E[40;1;37m|              • SETTINGS PANEL •                |\E[0m"
+echo -e "\E[40;1;37m|            • UPDATE PORT PANEL •               |\E[0m"
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "
- [\033[1;36m01\033[0m] • Domain Panel 
- [\033[1;36m02\033[0m] • Backup Panel 
- [\033[1;36m03\033[0m] • Port Panel 
+ [\033[1;36m01\033[0m] • MENU
+ [\033[1;36m02\033[0m] • MENU
+ [\033[1;36m03\033[0m] • MENU 
  [\033[1;36m04\033[0m] • MENU
  [\033[1;36m05\033[0m] • MENU
 
@@ -22,23 +22,23 @@ echo -e ""
 case $opt in
 01 | 1)
   clear
-  domain-menu
+  port-
   ;;
 02 | 2)
   clear
-  menu-bkp
+  port-
   ;;
 03 | 3)
   clear
-  port-change
+  port-
   ;;
 04 | 4)
   clear
-  MENU
+  port-
   ;;
 05 | 5)
   clear
-  MENU
+  port-
   ;;
 00 | 0)
   clear
@@ -46,6 +46,6 @@ case $opt in
   ;;
 *)
   clear
-  menu-set
+  menu-port
   ;;
 esac
